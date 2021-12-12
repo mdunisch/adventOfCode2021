@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "esrun --format=esm 01/01a.ts",
-    "serve": "esrun --watch 01/01b.ts"
+    "serve": "esrun --watch 01/01b.ts",
+    "lint": "eslint --ext .ts"
   },
   "devDependencies": {
     "@digitak/esrun": "^2.0.5",

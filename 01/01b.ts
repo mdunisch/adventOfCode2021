@@ -5,7 +5,7 @@ const file = readFileSync('./01/input01b.txt', 'utf8')
   .map((i: string) => parseInt(i));
 
 // 1. build array of measurement windows
-const windows = [];
+const windows: number[] = [];
 for (let i = 0; i < file.length; i++) {
   if (i + 3 > file.length) {
     break;
